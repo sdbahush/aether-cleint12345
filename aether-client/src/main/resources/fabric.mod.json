@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "aether",
+  "version": "${version}",
+  "name": "AETHER CLIENT",
+  "description": "A modular Fabric client with exploration scanners and a custom interface.",
+  "authors": ["AETHER Team"],
+  "contact": { "sources": "https://github.com/your-name/aether-client" },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.aether.client.AetherClient"] },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
